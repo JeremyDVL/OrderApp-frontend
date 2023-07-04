@@ -54,7 +54,7 @@
                    <CardImg
                       top={true}
                       style={{ height: 200 }}
-                      src={`http://localhost:1337/uploads/restaurant_78379f8c56.jpg`}
+                      src={`https://southerntiereats-1b58ec965d6b.herokuapp.com/uploads/restaurant_6a0ac97e4e.jpg`}
                     />
                     <CardBody>
                       <CardTitle tag="h5">{res.attributes.name}</CardTitle>

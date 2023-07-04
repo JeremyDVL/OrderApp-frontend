@@ -77,7 +77,7 @@ function Restaurants(props) {
 										style={{ height: 250, width: 250, alignSelf: 'center' }}
 										src={`${
 											process.env.STRAPI_URL ||
-											'http://localhost:1337'
+											'https://southerntiereats-1b58ec965d6b.herokuapp.com'
 										}${
 											res.attributes.image.data.attributes
 												.url

@@ -31,6 +31,10 @@
   "directories": {
     "lib": "lib"
   },
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
+  },
   "keywords": [],
   "author": "Jeremy Duval",
   "license": "MIT"

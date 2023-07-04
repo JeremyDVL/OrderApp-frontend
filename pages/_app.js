@@ -33,7 +33,7 @@ class MyApp extends App {
 			// authenticate the token on the server and place set user object
 			fetch(
 				`${
-					process.env.STRAPI_URL || `http://localhost:1337`
+					process.env.STRAPI_URL || `https://southerntiereats-1b58ec965d6b.herokuapp.com`
 				}/api/users/me`,
 				{
 					headers: {

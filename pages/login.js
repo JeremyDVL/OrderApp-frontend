@@ -35,10 +35,10 @@ function Login(props) {
 			<Row>
 				<Col sm="12" md={{ size: 5, offset: 3 }}>
 					<div className="paper">
-						<div className="header">
+						<div style={{ alignContent: 'center' }}>
 							<img
-								src="https://super-static-assets.s3.amazonaws.com/e7c0f16c-8bd3-4c76-8075-4c86f986e1b2/images/4ddec037-40d0-4919-ab34-adbd9f23c6a1.svg"
-								style={{ width: '75%' }}
+								src="https://southerntiereats-1b58ec965d6b.herokuapp.com/uploads/Sign_In_9ea1673220.jpg"
+								style={{ width: '50%' }}
 							/>
 						</div>
 						<section className="wrapper">

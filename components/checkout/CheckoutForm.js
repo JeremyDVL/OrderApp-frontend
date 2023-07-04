@@ -46,7 +46,7 @@ function CheckoutForm() {
 		try {
 			const response = await fetch(
 				`${
-					process.env.STRAPI_URL || 'http://127.0.0.1:1337'
+					process.env.STRAPI_URL || 'https://southerntiereats-1b58ec965d6b.herokuapp.com'
 				}/api/orders`,
 				{
 					method: 'POST',
