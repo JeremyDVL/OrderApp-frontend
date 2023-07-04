@@ -1,0 +1,37 @@
+{
+  "name": "next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.16",
+    "@stripe/react-stripe-js": "^1.10.0",
+    "@stripe/stripe-js": "^1.36.0",
+    "axios": "^0.27.2",
+    "graphql": "^16.7.1",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^3.0.1",
+    "next": "12.2.5",
+    "next-apollo": "^5.0.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "reactstrap": "^9.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "Jeremy Duval",
+  "license": "MIT"
+}
