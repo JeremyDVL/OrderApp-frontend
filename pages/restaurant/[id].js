@@ -75,7 +75,13 @@ function Restaurants(props) {
 									<CardImg
 										top={true}
 										style={{ height: 250, width: 250, alignSelf: 'center' }}
-										src={res.attributes.image.data[0].attributes.url}
+										src={`${
+											process.env.STRAPI_URL ||
+											'https://southerntiereats-1b58ec965d6b.herokuapp.com'
+										}${
+											res.attributes.image.data.attributes
+												.url
+										}`}
 									/>
 									<CardBody>
 										<CardTitle tag="h4">
