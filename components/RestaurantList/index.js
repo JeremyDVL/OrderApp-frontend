@@ -54,7 +54,7 @@
                    <CardImg
                       top={true}
                       style={{ height: 200 }}
-                      src={`https://southerntiereats-1b58ec965d6b.herokuapp.com/uploads/restaurant_6a0ac97e4e.jpg`}
+                      src={`https://res.cloudinary.com/dretnasee/image/upload/v1688647037/restaurant_c22f476ed5.jpg`}
                     />
                     <CardBody>
                       <CardTitle tag="h5">{res.attributes.name}</CardTitle>
