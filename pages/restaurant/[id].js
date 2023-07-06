@@ -77,7 +77,7 @@ function Restaurants(props) {
 										style={{ height: 250, width: 250, alignSelf: 'center' }}
 										src={`${
 											process.env.STRAPI_URL ||
-											'https://southerntiereats-1b58ec965d6b.herokuapp.com'
+											'https://res.cloudinary.com/dretnasee/'
 										}${
 											res.attributes.image.data.attributes
 												.url
