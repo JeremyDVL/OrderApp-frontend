@@ -37,8 +37,8 @@ function Login(props) {
 					<div className="paper">
 						<div style={{ alignContent: 'center' }}>
 							<img
-								src="https://southerntiereats-1b58ec965d6b.herokuapp.com/uploads/Sign_In_9ea1673220.jpg"
-								style={{ width: '50%' }}
+								src="https://res.cloudinary.com/dretnasee/image/upload/v1688683467/Sign_In_470e29b720.jpg"
+								style={{ width: '30%' }}
 							/>
 						</div>
 						<section className="wrapper">

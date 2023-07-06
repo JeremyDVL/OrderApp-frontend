@@ -26,16 +26,16 @@ const GET_RESTAURANT_DISHES = gql`
 				attributes {
 					name
 					dishes {
-						data {
+						data { 
 							id
 							attributes {
 								name
-								description
+								description 
 								price
 								image {
 									data {
 										attributes {
-											url
+													url
 										}
 									}
 								}
@@ -74,14 +74,8 @@ function Restaurants(props) {
 								<Card style={{ margin: '0 10px' }}>
 									<CardImg
 										top={true}
-										style={{ height: 250, width: 250, alignSelf: 'center' }}
-										src={`${
-											process.env.STRAPI_URL ||
-											'https://southerntiereats-1b58ec965d6b.herokuapp.com'
-										}${
-											res.attributes.image.data.attributes
-												.url
-										}`}
+										style={{ height: 200, width: 300, alignSelf: 'center' }}
+										src={"https://res.cloudinary.com/dretnasee/image/upload/v1688683184/Food_aeee767542.jpg"}
 									/>
 									<CardBody>
 										<CardTitle tag="h4">

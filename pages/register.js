@@ -25,10 +25,11 @@ const Register = () => {
 			<Row>
 				<Col sm="12" md={{ size: 5, offset: 3 }}>
 					<div className="paper">
-						<div className="header">
-						
-						 <h1>Register</h1>
-						
+						<div style={{ alignContent: 'center' }}>
+							<img
+								src="https://res.cloudinary.com/dretnasee/image/upload/v1688683871/signup_3e094ae963.jpg"
+								style={{ width: '30%' }}
+							/>
 						</div>
 						<section className="wrapper">
 							{Object.entries(error).length !== 0 &&
