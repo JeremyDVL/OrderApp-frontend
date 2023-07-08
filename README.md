@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Restaurant Ordering App
 
-## Getting Started
+A full-stack App built with React and a mix of different technologies, to experiment with Stripe Payments API in routing system.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This full-sack MERN app will let you see menus from different restaurants, add different items from all restuaurants to your cart and checkout with your user account using Stripe.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Includes a Search Bar, different dishes per restaurant and cart manages orders from different restaurants.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+On the backend, users, restaurants and menu information can be easily managed via Strapi.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Demo
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## How to Run
 
-## Learn More
+To get started:
 
-To learn more about Next.js, take a look at the following resources:
+- Install all project dependencies with `npm install`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Start both back and front-ends with `npm run`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Navigate to `http://localhost:3000/`
 
-## Deploy on Vercel
+## Built with MERN Technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Frontend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- React
+- Reactstrap
+- ReactDOM
+- React-stripe
+- Axios
+- GraphQL
+- Apollo
+- NextJS
+- Webpack
+
+### Backend
+
+- Express
+- Strapi
+- Stripe
+- Mongoose
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
