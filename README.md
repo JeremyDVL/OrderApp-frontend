@@ -16,6 +16,8 @@ On the backend, users, restaurants and menu information can be easily managed vi
 
 App Link - `https://southern-tier-eats-21bee781ab9f.herokuapp.com/`
 
+![Southern Tier Eats](Gif.gif) / ![](Gif.gif)
+
 ## How to Run
 
 To get started:
