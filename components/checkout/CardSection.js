@@ -27,7 +27,7 @@ function CardSection(props) {
 								<button onClick={props.submitOrder}>
 									Confirm order
 								</button>
-								<h5>Use numbers 4242424242424242... for test card</h5>
+								<h6>Use numbers 4242424242424242... for test card</h6>
 							</div>
 							{props.stripeError ? (
 								<div>{props.stripeError.toString()}</div>
